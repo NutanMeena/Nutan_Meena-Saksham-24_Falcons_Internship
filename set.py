@@ -58,3 +58,8 @@ plt.show()
 #15
 sns.boxplot(x='payment',y='distance',data=taxis)
 plt.show()
+sns.lineplot(x='payment',y='distance',data=taxis)
+plt.show()
+#16
+sns.barplot(x='cut',y='carat',data=dim)
+plt.show()
